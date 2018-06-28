@@ -3,7 +3,7 @@ programa
 	funcao inicio()
 	{
 		real salario_fixo, comissao, salario_final, total_vendas
-		caracter nome
+		cadeia nome
 		
 		escreva("Qual o nome do vendedor? ")
 		leia (nome)
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 451; 
+ * @POSICAO-CURSOR = 98; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

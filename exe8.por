@@ -3,6 +3,7 @@ programa
 	funcao inicio()
 	{
 		real cotacao_dolar, quant_dolar, valor_real
+		
 		escreva("Qual o valor da cotação do dolar hoje? ")
 		leia(cotacao_dolar)
 		escreva("Qual o valor que deseja converter em reais? ")
@@ -17,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 311; 
+ * @POSICAO-CURSOR = 79; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

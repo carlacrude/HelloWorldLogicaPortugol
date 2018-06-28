@@ -2,7 +2,7 @@ programa
 {
 	funcao inicio()
 	{
-		caracter nome 
+		cadeia nome 
 		inteiro sexo, contador, total_mulher=0, total_homem=0
 	
 		para (contador=0; contador<=4; contador ++){
@@ -17,7 +17,8 @@ programa
 				escreva(" é uma mulher!\n")
 				total_mulher=total_mulher+1
 			}
-			senao{
+			
+			se(sexo==2){
 				escreva(nome)
 				escreva(" é um homem!\n")
 				total_homem=total_homem+1
@@ -37,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 530; 
+ * @POSICAO-CURSOR = 562; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

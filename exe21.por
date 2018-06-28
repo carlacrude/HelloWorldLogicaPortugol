@@ -2,14 +2,26 @@ programa
 {
 	funcao inicio()
 	{
-		real tempC, tempF
+		inteiro n, x, contador, resto
 		
-		escreva("Qual a temperatura em Celsius? ")
-		leia(tempC)
-		tempF=((9*tempC)+160)/5
-		escreva("A temperatura em Fahrenheit é de: ")
-		escreva(tempF)
-		escreva("F")
+		escreva("Informe um valor para N ")
+		leia(n)
+		escreva("Informe um valor para X ")
+		leia(x)
+
+		contador=1
+
+		enquanto (contador<=x) {
+			
+			resto = contador%n
+			
+			se (resto==0){
+				escreva(contador)
+			}
+		contador++
+			
+			}			
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 53; 
+ * @POSICAO-CURSOR = 300; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
